@@ -18,7 +18,7 @@ __all__ = ('remove', 'accumulate', 'groupby', 'merge_sorted', 'interleave',
 
 
 def remove(predicate, seq):
-    """ Return those items of sequence for which predicate(item) is False
+    """ Return those items of sequence for which predicate(item) is True
 
     >>> def iseven(x):
     ...     return x % 2 == 0
